@@ -4,6 +4,7 @@ import com.mq.consumer.ConnectionUtil.ConnectionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.DeliverCallback;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +18,7 @@ public class ConsumerService {
     @Autowired
     private ConnectionUtil connectionUtil;
 
+    @RabbitListener(queues = "queue1")
     public void consumer() throws IOException, TimeoutException {
         Connection connection = connectionUtil.getConnection();
         Channel channel = connection.createChannel();
@@ -28,6 +30,6 @@ public class ConsumerService {
             String message = new String(delivery.getBody(), StandardCharsets.UTF_8);
             System.out.println(" [x] Received '" + message + "'");
         };
-        channel.basicConsume("queue1", true, deliverCallback, consumerTag -> { });
+        channel.basicConsume("queue1", false, deliverCallback, consumerTag -> { });
     }
 }
