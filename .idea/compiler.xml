@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-consumer" />
+        <module name="sharding-jdbc" />
         <module name="spring-produce" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sharding-jdbc" options="-parameters" />
       <module name="spring-consumer" options="-parameters" />
       <module name="spring-produce" options="-parameters" />
     </option>
