@@ -12,6 +12,8 @@
         <module>spring-produce</module>
         <module>spring-consumer</module>
         <module>sharding-jdbc</module>
+        <module>springboot-nacos</module>
+        <module>spring-rocketmq</module>
     </modules>
 
     <parent>

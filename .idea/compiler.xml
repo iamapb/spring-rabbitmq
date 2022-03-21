@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-consumer" />
         <module name="sharding-jdbc" />
+        <module name="springboot-nacos" />
+        <module name="spring-rocketmq" />
+        <module name="spring-consumer" />
         <module name="spring-produce" />
       </profile>
     </annotationProcessing>
@@ -18,6 +20,8 @@
       <module name="sharding-jdbc" options="-parameters" />
       <module name="spring-consumer" options="-parameters" />
       <module name="spring-produce" options="-parameters" />
+      <module name="spring-rocketmq" options="-parameters" />
+      <module name="springboot-nacos" options="-parameters" />
     </option>
   </component>
 </project>
