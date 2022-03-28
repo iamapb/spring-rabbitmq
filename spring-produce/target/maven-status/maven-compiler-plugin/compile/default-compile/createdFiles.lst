@@ -1,0 +1,5 @@
+com/mq/produce/controller/SendController.class
+com/mq/produce/ConnectionUtil/ConnectionUtil.class
+com/mq/produce/service/SendService.class
+com/mq/produce/produce/demo/ProduceMqDemo.class
+com/mq/produce/SpringBooProduce.class
