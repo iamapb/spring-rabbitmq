@@ -3,7 +3,7 @@ package com.base.depends;
 import org.springframework.context.annotation.*;
 
 @Configuration
-@ComponentScan("com.fly.student.spring.depends")
+@ComponentScan("com.base.depends")
 public class AppConfig {
 
     @Bean(initMethod = "initialize")
