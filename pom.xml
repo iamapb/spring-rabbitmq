@@ -17,6 +17,7 @@
         <module>spring</module>
         <module>java-es</module>
         <module>java-base</module>
+        <module>eureka</module>
     </modules>
 
     <parent>
