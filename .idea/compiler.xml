@@ -34,6 +34,7 @@
       <module name="spring-consumer" options="-parameters" />
       <module name="spring-produce" options="-parameters" />
       <module name="spring-rocketmq" options="-parameters" />
+      <module name="spring-study" options="" />
       <module name="springboot-mq" options="" />
       <module name="springboot-nacos" options="-parameters" />
     </option>
