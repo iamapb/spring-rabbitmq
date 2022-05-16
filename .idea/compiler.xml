@@ -10,24 +10,27 @@
         <module name="spring" />
         <module name="sharding-jdbc" />
         <module name="springboot-nacos" />
-        <module name="spring-consumer" />
         <module name="eureka" />
-        <module name="spring-produce" />
         <module name="java-base" />
         <module name="spring-rocketmq" />
+        <module name="java-dubbo" />
         <module name="java-es" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-project-study" target="1.8" />
       <module name="spring-cloud" target="1.8" />
+      <module name="spring-consumer" target="1.8" />
+      <module name="spring-produce" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
       <module name="java-base" options="-parameters" />
+      <module name="java-dubbo" options="-parameters" />
       <module name="java-es" options="-parameters" />
+      <module name="java-study" options="-parameters" />
       <module name="sharding-jdbc" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
