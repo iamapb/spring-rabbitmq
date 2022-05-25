@@ -30,7 +30,7 @@
       <module name="java-base" options="-parameters" />
       <module name="java-dubbo" options="-parameters" />
       <module name="java-es" options="-parameters" />
-      <module name="java-study" options="-parameters" />
+      <module name="java-study" options="" />
       <module name="sharding-jdbc" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
