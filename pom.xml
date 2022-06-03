@@ -18,6 +18,7 @@
         <module>java-es</module>
         <module>java-base</module>
         <module>eureka</module>
+        <module>java-dubbo</module>
     </modules>
 
     <parent>
@@ -191,6 +192,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.4</version>
         </dependency>
 
         <!--Spring框架基本的核心工具-->
