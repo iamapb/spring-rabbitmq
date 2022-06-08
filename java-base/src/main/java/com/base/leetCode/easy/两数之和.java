@@ -2,7 +2,9 @@ package com.base.leetCode.easy;
 
 import com.alibaba.fastjson.JSON;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.stream.IntStream;
 
 //给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。
 //
@@ -42,7 +44,7 @@ public class 两数之和 {
         }
 
         public static void main(String[] args) {
-            int[] num = new int[]{1, 2, 3, 4, 8, 29};
+            int[] num = new int[]{1, 5, 3, 4, 8, 25, 29};
             int[] result = twoSum(num, 30);
             System.out.println(JSON.toJSONString(result));
         }
