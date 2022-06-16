@@ -9,8 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-produce</module>
-        <module>spring-consumer</module>
         <module>sharding-jdbc</module>
         <module>springboot-nacos</module>
         <module>spring-rocketmq</module>
